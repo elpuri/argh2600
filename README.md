@@ -10,6 +10,10 @@ Somewhat complete implementation of the legendary Atari 2600 VCS in synthesizabl
 * Audio output using an AC97 codec
 * Supports 4K cartridges
 
+Here's some poor quality Youtube evidence:
+
+[![demo video](http://img.youtube.com/vi/2uOF36kC1Qw/0.jpg)](http://www.youtube.com/watch?v=2uOF36kC1Qw)
+
 ### Blah blah
 When I originally got the idea of recreating a game console lodged between my ears, I thought Atari 2600 would be a really simple machine to do because it's so primitive. Right? No. The difficult part is getting TIA (the graphics chip) right, or more specifically getting the timings right. In retrospect I would pick a console that has a bit more autonomous and less timing sensitive graphics hardware.
 
@@ -26,6 +30,3 @@ One thing that proved out to be invaluable along the way was [Stella](http://ste
 
 
 
-Youtube evidence:
-
-[![demo video](http://img.youtube.com/vi/2uOF36kC1Qw/0.jpg)](http://www.youtube.com/watch?v=2uOF36kC1Qw)
