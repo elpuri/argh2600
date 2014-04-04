@@ -1,0 +1,330 @@
+<session jtag_chain="USB-Blaster [3-2]" jtag_device="@1: EP2C35 (0x020B40DD)" sof_file="">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="1024"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="128"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="896"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2014/03/06 02:36:54  #0">
+      <clock name="pll:pll|c0" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="8192" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="TIA:tia|player:p0|pixel" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="T65:cpu|A[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|clk_div3_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|clk_div4[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|clk_div4[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|pf_pixel" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|clk_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[2]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[3]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[4]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[5]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter_next[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|hm_trigger" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|motck_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|pixel" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[3]" tap_mode="classic" type="register"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="T65:cpu|A[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|A[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="T65:cpu|DO[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|clk_div3_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|clk_div4[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|clk_div4[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|pf_pixel" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|clk_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[2]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[3]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[4]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter[5]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|counter_next[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|counter_next[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|hm_trigger" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|motck_ena" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|pixel" tap_mode="classic" type="combinatorial"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="TIA:tia|player:p0|pixel_counter[3]" tap_mode="classic" type="register"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[5]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[4]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|counter_next" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[5]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[4]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|pixel_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|clk_ena"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|motck_ena"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|hm_trigger"/>
+          <net is_signal_inverted="no" name="TIA:tia|pf_pixel"/>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|clk_div4" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|clk_div4[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|clk_div4[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="T65:cpu|A" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="T65:cpu|A[23]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[22]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[21]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[20]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[19]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[18]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[17]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[16]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[15]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[14]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[13]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[12]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[11]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[10]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[9]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[8]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[7]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[6]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[5]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[4]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[3]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[2]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[1]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="T65:cpu|DO" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="T65:cpu|DO[7]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[6]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[5]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[4]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[3]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[2]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[1]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="TIA:tia|clk_div3_ena"/>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[5]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[4]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|counter_next" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[5]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[4]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|counter_next[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|player:p0|pixel_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[3]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[2]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|clk_ena"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|motck_ena"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|pixel"/>
+          <net is_signal_inverted="no" name="TIA:tia|player:p0|hm_trigger"/>
+          <net is_signal_inverted="no" name="TIA:tia|pf_pixel"/>
+          <bus is_signal_inverted="no" link="all" name="TIA:tia|clk_div4" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="TIA:tia|clk_div4[1]"/>
+            <net is_signal_inverted="no" name="TIA:tia|clk_div4[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="T65:cpu|A" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="T65:cpu|A[23]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[22]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[21]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[20]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[19]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[18]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[17]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[16]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[15]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[14]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[13]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[12]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[11]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[10]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[9]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[8]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[7]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[6]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[5]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[4]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[3]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[2]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[1]"/>
+            <net is_signal_inverted="no" name="T65:cpu|A[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="T65:cpu|DO" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="T65:cpu|DO[7]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[6]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[5]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[4]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[3]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[2]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[1]"/>
+            <net is_signal_inverted="no" name="T65:cpu|DO[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="TIA:tia|clk_div3_ena"/>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2014/03/06 02:36:54  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="8192" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'TIA:tia|player:p0|pixel' == rising edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>11111111111111111111110000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <static_plugin_mnemonics/>
+  <mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="column width" size="23" value="34,34,298,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="frame size" size="2" value="1639,857"/>
+    <multi attribute="jtag widget size" size="2" value="400,145"/>
+  </global_info>
+</session>
