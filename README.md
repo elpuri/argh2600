@@ -1,6 +1,6 @@
 argh2600
 ========
-![Pitfall! screenshot](https://dl.dropboxusercontent.com/u/15525442/atari.jpg)
+![Pitfall! screenshot](https://pbs.twimg.com/media/Bi6MAIgCIAEwDMb.jpg:large)
 
 Somewhat complete implementation of the legendary Atari 2600 VCS in synthesizable VHDL. In the photo and the video the design is being run on a Altera Cyclone II device (DE2 board). 
 
