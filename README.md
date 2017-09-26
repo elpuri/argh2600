@@ -19,7 +19,7 @@ When I originally got the idea of recreating a game console lodged between my ea
 
 The project uses T65 the VHDL 65xx implementation from opencores.org. Everything else is written by me. Originally I planned to write also the 6507 from scratch, but wisely decided against it. Timing (which is still off) is absolutely esssential to get even the basic games working. Getting both the 6507 and TIA timing right at the same time would've probably been really frustrating. I'm planning to write my own 65xx at some point though, but I want to write some gameconsole cores first to test it against.
 
-One thing that proved out to be invaluable along the way was [Stella](http://stella.sourceforge.net/). I would highly recommend using it for anyone planning to embark on this same journey.
+One thing that proved out to be invaluable along the way was [Stella](https://stella-emu.github.io/). I would highly recommend using it for anyone planning to embark on this same journey.
 
 ### TODO
 * More accurate register access timing (unsurprisingly this is really important for games)
